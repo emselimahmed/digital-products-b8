@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* nav container */
+
 .menu-container{
     background-color: rgb(100, 98, 98);
     padding: 8px;
@@ -26,5 +29,14 @@
 }
 .item:hover{
     color: orange;
+    
+}
+
+/* Banner styles */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
