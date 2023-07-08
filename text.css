@@ -1,0 +1,7 @@
+.test{
+    color: blue;
+    cursor: pointer;
+}
+.sad-img{
+    cursor: url("https://www.flaticon.com/free-icon/sad_742752?term=emoji&page=1&position=10&origin=tag&related_id=742752"), auto;
+}
