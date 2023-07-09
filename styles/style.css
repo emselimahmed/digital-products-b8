@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-/* nav container */
+/* nav container styles*/
 
 .menu-container{
-    background-color: rgb(100, 98, 98);
+    background-color: rgb(77, 72, 72);
     padding: 8px;
     color: white;
     list-style: none;
@@ -34,9 +34,32 @@
 
 /* Banner styles */
 
+.banner-img{
+    width: 300px;
+}
+
 .banner-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    color: white;
+    height: 100vh;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(29, 29, 29), black);
 }
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
