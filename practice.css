@@ -6,19 +6,19 @@
 /* Common styles ====================================================*/
 
 .title{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .description{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .btn{
     background-color: #ff5e3a;
-    padding: 22px 35px;
+    padding: 20px 33px;
     border-radius: 5px;
     border: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     margin-top: 30px;
@@ -64,7 +64,7 @@
 }
 
 .banner-image{
-    width: 480px;
+    width: 450px;
 }
 
 .banner-text{
