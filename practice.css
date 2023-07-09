@@ -24,6 +24,17 @@
     margin-top: 30px;
 }
 
+.image{
+    width: 450px;
+}
+
+.center-text-align{
+    text-align: center;
+}
+
+.half-width{
+    width: 50%;
+}
 /* Menu section styles ==============================================*/
 
 .menu-container{
@@ -63,9 +74,6 @@
     background-image: url("images/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
 }
 
-.banner-image{
-    width: 450px;
-}
 
 .banner-text{
     width: 50%;
@@ -80,4 +88,16 @@
 }
 
 
+/* About styles section =============================================== */
 
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.about-sec-title{
+    margin-top: 25px;
+}
