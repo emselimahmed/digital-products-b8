@@ -3,16 +3,38 @@
     padding: 0;
 }
 
-/* Menu section styles */
+/* Common styles ====================================================*/
+
+.title{
+    font-size: 60px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.btn{
+    background-color: #ff5e3a;
+    padding: 22px 35px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Menu section styles ==============================================*/
 
 .menu-container{
-    background-color: rgb(29, 25, 25);
+    background-image: linear-gradient(45deg,rgb(53, 53, 53), rgb(8, 8, 8));
     color: white;
     list-style: none;
     display: flex;
     font-weight: bold;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .logo-img{
@@ -21,7 +43,7 @@
 
 .menus{
     display: flex;
-    padding: 20px;
+    padding: 25px;
 }
 
 .item{
@@ -29,7 +51,7 @@
     cursor: pointer;   
 }
 
-/* Banner section styles */
+/* Banner section styles ===============================================*/
 
 .banner-container{
     display: flex;
@@ -38,7 +60,7 @@
     height: 100vh;
     background-color: rgb(43, 41, 41);
     color: white;
-    background-image: url("images/background.png");
+    background-image: url("images/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
 }
 
 .banner-image{
@@ -53,23 +75,9 @@
     width: 50%;
 }
 
-.title{
-    font-size: 70px;
-}
-.description{
-    font-size: 25px;
+.banner-description{
     margin-top: 30px;
 }
-.btn{
-    background-color: #ff5e3a;
-    padding: 22px 35px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    margin-top: 30px;
 
-}
 
 
